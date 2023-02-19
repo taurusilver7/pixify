@@ -24,6 +24,12 @@ Add tailwind directives to the stylesheet.
 
 ## Build
 
-Scaffold a starter template using a script & refactor the directories.
+Scaffold a starter template using a script & refactor the directories. Add tailwind directives to the application build.
 
-Add tailwind directives to the application build.
+Create two pages Home & CreatePost for populating the images & creating new ones.
+
+Populte & style the App component with index page with header + main elments. Add routes in the main element for Home & CreatePost pages.
+
+Get you own custom [logo](https://express.adobe.com/) to customize the application with your signature.
+
+The home page has a search form to filter the library for images & a loading component. Create a custom [loading](https://loading.io/) component here.

@@ -1,6 +1,6 @@
 import React from "react";
-import { Home } from "./pages";
-import { BrowserRouter, Link } from "react-router-dom";
+import { CreatePost, Home } from "./pages";
+import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import { logo } from "./assets";
 
 function App() {
@@ -19,7 +19,10 @@ function App() {
 			</header>
 
 			<main className="sm:p-8 px-4 w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]">
-				Main part
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/create" element={<CreatePost />} />
+				</Routes>
 			</main>
 		</BrowserRouter>
 	);
